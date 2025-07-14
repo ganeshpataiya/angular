@@ -1,0 +1,25 @@
+[
+  {
+    "id": "0",
+    "degree": "MCA",
+    "university": "RGTU Bhopal",
+    "collage":"Bhabha Engineering Research Institute",
+    "year": "2009"
+     
+  },
+  {
+    "id": "1",
+     "degree": "Post-Graduation Diploma in computer Application (PGDCA)",
+     "university": "RGTU Bhopal",
+     "collage":"Makhanlal Chaturvedi University Bhopal",
+     "year": "2004"
+    
+  },
+  {
+    "id": "2",
+     "degree": "B.Sc. (Mathematics)",
+     "university": "Barkat-Ullah University, Bhopal",
+     "collage":"J.H. College, Betul",
+     "year": "2003"    
+  }
+]
