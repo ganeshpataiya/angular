@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>AngularProfile</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="public/favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="">
+
+  <video id="video1" *ngIf="activeDiv === 'video1'" class="bg-video- body-overlay earth-lines-sphere" muted="" autoplay="" loop="">
+    <source src="/public/assets/video/video1.mp4" type="video/mp4">
+  </video>
+
+  <video id="video2" *ngIf="activeDiv === 'video2'" class="bg-video body-overlay earth-lines-sphere" muted="" autoplay="" loop="">
+    <source src="/public/assets/video/video2.mp4" type="video/mp4">
+  </video>
+
+  <video id="video3" *ngIf="activeDiv === 'video3'" class="bg-video body-overlay earth-lines-sphere" muted="" autoplay="" loop="">
+    <source src="/public/assets/video/video3.mp4" type="video/mp4">
+  </video>
+
+  <app-root></app-root>
+</body>
+
+</html>
