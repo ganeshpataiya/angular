@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class Api {
-  private projectURL = 'public/assets/data/project.json';//Project with your API URL
+  private projectURL = 'public/assets/data/Project.json';//Project with your API URL
   private experienceURL = 'public/assets/data/Experience.json'; // Replace with your second API URL
   private projectArchiveURL = 'public/assets/data/Skills.json'; // Replace with your third API URL  
   constructor(private http:HttpClient) { }
