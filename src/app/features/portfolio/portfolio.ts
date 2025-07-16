@@ -10,14 +10,14 @@ import { Api } from '../../api';
   styleUrl: './portfolio.scss'
 })
 export class Portfolio {
-project: any[] = [];
+projects: any[] = [];
  constructor(private api: Api) {}
 
    ngOnInit(): void {
     this.api.getProject().subscribe((data) => {
-      this.project = data as any[];
-      console.log(this.project);
-        console.log(this.project.length);
+      this.projects = data as any[];
+      console.log(this.projects);
+        console.log(this.projects.length);
     });
   }
 }

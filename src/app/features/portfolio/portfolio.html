@@ -1,7 +1,5 @@
 
 
-
-
     <section class="portfolio-area page-section scroll-to-page" id="portfolio">
                     <div class="custom-container">
                         <div class="portfolio-content content-width">
@@ -13,31 +11,24 @@
                                 <h1 class="scroll-animation" data-animation="fade_from_bottom" >Featured <span>Projects</span></h1>
                             </div>
         
-                            <div class="row portfolio-items" *ngIf="project.length">
+                            <div class="row portfolio-items" *ngIf="projects.length">
 
-                                <!-- <ul *ngIf="project.length">
-  <li *ngFor="let user of project">
-    <div> {{ user.company }} </div>
-  </li>
-</ul> -->
-
-                                <div *ngFor="let projectItem of project" class="col-md-12 scroll-animation" data-animation="fade_from_bottom" >
+                                <div *ngFor="let project of projects" class="col-md-12 scroll-animation" data-animation="fade_from_bottom" >
                                     <div class="portfolio-item portfolio-full">
                                         <div class="portfolio-item-inner">
-                                            <a href={{projectItem.projectWebsite}} data-lightbox="example-1">
-                                                <img src={{projectItem.projectImage}} alt="Portfolio">
-                                            </a>
+                                            <a href={{project.projectWebsite}} data-lightbox="example-1">
+                                                <img src={{project.projectImage}} alt="Portfolio">                                            </a>
         
-                                            <!-- <div *ngIf="projectItem.technology"> -->
-                                            <ul class="portfolio-categories" *ngFor="let technology of projectItem.technology">
-                                                <li>
-                                                    <a href="">{{technology.l}}</a>
+                                  
+                                            <ul class="portfolio-categories" >
+                                                <li *ngFor="let tech of project.technology">
+                                                    <a href="">{{tech}}</a>
                                                 </li>
                                               
                                             </ul>
                                             <!-- </div> -->
                                         </div>
-                                        <h2><a href="">{{projectItem.projectName}}</a></h2>
+                                        <h2><a href="">{{project.projectName}}</a></h2>
                                     </div>
                                 </div>
         

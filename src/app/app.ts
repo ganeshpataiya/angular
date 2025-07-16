@@ -19,7 +19,7 @@ import { Profile } from './features/profile/profile';
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, RouterLink, RouterOutlet, Home, About, Resume, Skills, Portfolio, Contact, Nav, MatIcon, Bgsetting, Hamburgemenu, Experience, Profile],
+  imports: [CommonModule, Home, About, Resume, Skills, Portfolio, Contact, Nav, MatIcon, Bgsetting, Hamburgemenu, Experience, Profile],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 

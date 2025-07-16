@@ -27,11 +27,11 @@
 }
 
 .icon-menu:hover {
-    border-color: var(--primary_color);
+    border-color: var(--primary-color);
 }
 
 .icon-menu:hover span {
-    background: var(--primary_color);
+    background: var(--primary-color);
 }
 
 
@@ -47,9 +47,9 @@
     border: 1px solid #575757;
     border-radius: 30px;
     position: fixed;
-    right: 68px;
-    top: 40vh;
-    /* width: 55px; */
+    right: 4.25rem;    
+    top: 50%;
+    transform: translateY(-50%);   
     text-align: center;
     gap: 20px;
     padding: 24px 0;
@@ -68,11 +68,11 @@
     cursor: pointer;
 }
 
-.menu li .active,
+.menu li.active,
 .menu li :hover,
 .menu li .scroll-to.active,
 .menu li .scroll-to:hover {
-    color: var(--primary_color);
+    color: var(--primary-color);
 }
 
 .menu li .scroll-to:hover span,
@@ -249,6 +249,6 @@
 }
 
 .responsive-sidebar-menu .sidebar-menu-inner .sidebar-social ul li a:hover {
-    color: var(--primary_color);
+    color: var(--primary-color);
 }
 
