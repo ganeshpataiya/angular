@@ -1,0 +1,25 @@
+    <div class="resume-area page-section scroll-to-page">
+                    <div class="custom-container">
+                        <div class="resume-content content-width">
+                            <div class="section-header">
+                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                                    <mat-icon aria-hidden="false" aria-label="Portfolio Icon" fontIcon="assignment"></mat-icon>Resume
+                                </h4>
+                                <h1 class="scroll-animation" data-animation="fade_from_bottom">Education &amp; <span>Experience</span></h1>
+                            </div>
+        
+                            <div class="resume-timeline"> 
+                                <div *ngFor="let experience of experiences" class="item scroll-animation" data-animation="fade_from_right">
+                                   <h2>
+                                    <a href={{experience.website}} target="_blank" title={{experience.company}}> {{experience.company}}</a></h2>
+                                    <span class="date">{{experience.time}}</span>                                     
+                                    <h3>{{experience.designation}}</h3>
+                                     <p>{{experience.location}}</p>                                    
+                                    <p>{{experience.description}}</p>
+                                    <!-- <h2>{{experience.role}}</h2> -->
+                                </div>                  
+                            </div>        
+                        </div>
+                    </div>
+                </div>
+    

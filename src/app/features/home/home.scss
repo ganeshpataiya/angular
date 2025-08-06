@@ -1,0 +1,76 @@
+
+/* 07 - Hero Section */
+.hero-section {
+    padding: 68px 0;
+    position: relative;
+    overflow: hidden;
+}
+.hero-section .hero-content {
+    position: relative;
+    z-index: 3;
+}
+
+.hero-section .hero-content h1 span {
+    color: var(--primary-color);
+}
+.hero-section .hero-content > p {
+    max-width: 480px;
+    margin-bottom: 31px;
+}
+.hero-section .hero-content .go-to-project-btn {
+    width: 175px;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    border-radius: 50%;
+    border: 1px solid #575757;
+    position: relative;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.hero-section .hero-content .go-to-project-btn img {
+    display: block;
+    animation: rotating 6s infinite linear;
+}
+.hero-section .hero-content .go-to-project-btn .la-arrow-down {
+    position: absolute;
+    color: #fff;
+    // font-size: 40px;
+    display: block;
+}
+.hero-section .hero-content .facts {
+    gap: 100px;
+    margin-top: 55px;
+}
+.hero-section .hero-content .facts h1 {
+    font-size: 72px;
+    color: var(--primary-color);
+    line-height: 56px;
+    margin-bottom: 38px;
+}
+.hero-section .hero-content .facts p {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+mat-icon.mat-icon.la-arrow-down {
+    /* width: 50px; */
+    /* height: 50px; */
+    height: 35px;
+    font-size: 35px;
+    width: 30px;
+    text-align: center;
+}

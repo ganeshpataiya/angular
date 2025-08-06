@@ -1,0 +1,100 @@
+
+/* 18 - Contact */
+.contact-area {
+    padding-bottom: 50px;
+}
+.contact-area .contact-content h3 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+.contact-area .contact-content #required-msg {
+    color: #fc4545;
+    font-size: 14px;
+    margin-bottom: 31px;
+    display: none;
+}
+.contact-area .contact-content #required-msg.show {
+    display: block;
+}
+.contact-area .contact-content .contact-form .input-group {
+    margin-bottom: 34px;
+}
+.contact-area .contact-content .contact-form .input-group label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 2px;
+}
+.contact-area .contact-content .contact-form .input-group label sup {
+    color: #fc4545;
+    font-size: 12px;
+    top: 0;
+}
+.contact-area .contact-content .contact-form .input-group label span {
+    color: #999999;
+    text-transform: none;
+}
+.contact-area .contact-content .contact-form .input-group select,
+.contact-area .contact-content .contact-form .input-group textarea,
+.contact-area .contact-content .contact-form .input-group input {
+    display: block;
+    color: #fff;
+    width: 100%;
+    border: none;
+    background: none;
+    font-size: 18px;
+    padding: 0;
+    transition: .2s;
+    padding-bottom: 3px;
+}
+.contact-area .contact-content .contact-form .input-group textarea {
+    height: 140px;
+    border-bottom: 1px solid #555555;
+    resize: none;
+}
+.contact-area .contact-content .contact-form .input-group select {
+    display: block;
+    margin-left: -5px !important;
+    font-weight: 300;
+}
+.contact-area .contact-content .contact-form .input-group select:focus,
+.contact-area .contact-content .contact-form .input-group textarea:focus,
+.contact-area .contact-content .contact-form .input-group input:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #555555;
+}
+.contact-area .contact-content .contact-form .input-group textarea::placeholder,
+.contact-area .contact-content .contact-form .input-group input::placeholder {
+    color: #666666;
+}
+.contact-area .contact-content .contact-form .input-group.upload-attachment {
+    position: relative;
+}
+.contact-area .contact-content .contact-form .input-group.upload-attachment label {
+    overflow: hidden;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+.contact-area .contact-content .contact-form .input-group.upload-attachment label i {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 2px;
+}
+.contact-area .contact-content .contact-form .input-group.upload-attachment input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.contact-area .contact-content .contact-form .input-group.submit-btn-wrap {
+    margin-bottom: 0;
+    margin-top: 18px;
+}
+
+
