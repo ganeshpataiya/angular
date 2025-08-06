@@ -12,14 +12,14 @@ import { Nav } from './layout/nav/nav';
 import { MatIcon } from '@angular/material/icon';
 import { Bgsetting } from "./layout/bgsetting/bgsetting";
 import { Hamburgemenu } from "./layout/hamburgemenu/hamburgemenu";
-import { Experience } from './features/experience/experience';
+// import { Experience } from './features/experience/experience';
 import { Profile } from './features/profile/profile';
 // import { MatIcon } from '@angular/material/icon';
 
 
 @Component({
   selector: 'app-root',
-  imports: [CommonModule, Home, About, Resume, Skills, Portfolio, Contact, Nav, MatIcon, Bgsetting, Hamburgemenu, Experience, Profile],
+  imports: [CommonModule, Home, About, Resume, Skills, Portfolio, Contact, Nav, MatIcon, Bgsetting, Hamburgemenu,  Profile],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 

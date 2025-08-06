@@ -1,46 +1,36 @@
+<div class="portfolio-area page-section scroll-to-page">
+    <div class="custom-container">
+        <div class="portfolio-content content-width">
+            <div class="section-header">
+                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
+                    <mat-icon aria-hidden="false" aria-label="Portfolio Icon" fontIcon="grid_on"></mat-icon>
+                    portfolio
+                </h4>
+                <h1 class="scroll-animation" data-animation="fade_from_bottom">Featured <span>Projects</span></h1>
+            </div>
+
+            <div class="row portfolio-items" *ngIf="projects.length">
+
+                <div *ngFor="let project of projects" class="col-md-12 scroll-animation"
+                    data-animation="fade_from_bottom">
+                    <div class="portfolio-item portfolio-full">
+                        <div class="portfolio-item-inner">
+                            <a href={{project.projectWebsite}} data-lightbox="example-1">
+                                <img src={{project.projectImage}} alt="Portfolio"> </a>
 
 
-    <section class="portfolio-area page-section scroll-to-page" id="portfolio">
-                    <div class="custom-container">
-                        <div class="portfolio-content content-width">
-                            <div class="section-header">
-                                <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom" >
-                                   <mat-icon aria-hidden="false" aria-label="Portfolio Icon" fontIcon="grid_on"></mat-icon>
-                                    portfolio
-                                </h4>
-                                <h1 class="scroll-animation" data-animation="fade_from_bottom" >Featured <span>Projects</span></h1>
-                            </div>
-        
-                            <div class="row portfolio-items" *ngIf="projects.length">
+                            <ul class="portfolio-categories">
+                                <li *ngFor="let tech of project.technology">
+                                    <a href="">{{tech}}</a>
+                                </li>
 
-                                <div *ngFor="let project of projects" class="col-md-12 scroll-animation" data-animation="fade_from_bottom" >
-                                    <div class="portfolio-item portfolio-full">
-                                        <div class="portfolio-item-inner">
-                                            <a href={{project.projectWebsite}} data-lightbox="example-1">
-                                                <img src={{project.projectImage}} alt="Portfolio">                                            </a>
-        
-                                  
-                                            <ul class="portfolio-categories" >
-                                                <li *ngFor="let tech of project.technology">
-                                                    <a href="">{{tech}}</a>
-                                                </li>
-                                              
-                                            </ul>
-                                            <!-- </div> -->
-                                        </div>
-                                        <h2><a href="">{{project.projectName}}</a></h2>
-                                    </div>
-                                </div>
-        
-                            
-        
-                 
-        
-               
-        
-                              
-                            </div>
-        
+                            </ul>
+                            <!-- </div> -->
                         </div>
+                        <h2><a href="">{{project.projectName}}</a></h2>
                     </div>
-                </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

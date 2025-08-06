@@ -2,16 +2,17 @@
   <div class="grid grid-cols-4 gap-4">
     <!-- header -->
     <!-- <header class="col-span-4 bg-white shadow-md py-4 px-6 flex justify-between items-center"> </header> -->
-      <!-- <h1 class="text-2xl font-bold text-gray-800">My Profile</h1> -->      
-     
+    <!-- <h1 class="text-2xl font-bold text-gray-800">My Profile</h1> -->
+
     <!-- left side -->
     <div class="left-side">
-      <div class="w-64 border-r border-gray-200 fixed side-bar">        <!-- Modal Popup -->
+      <div class="w-64 border-r border-gray-200 fixed side-bar"> <!-- Modal Popup -->
         <!-- Button to open modal -->
-        <button (click)="openPopup()" class="global-color">          
-           <mat-icon aria-hidden="false" aria-label="Example resume icon" fontIcon="settings" class="setting-toggle"></mat-icon>  
+        <button (click)="openPopup()" class="global-color">
+          <mat-icon aria-hidden="false" aria-label="Example resume icon" fontIcon="settings"
+            class="setting-toggle"></mat-icon>
         </button>
-        
+
         <app-profile></app-profile>
         <!-- <app-nav></app-nav> -->
         <!-- <nav class="mt-4">
@@ -30,24 +31,31 @@
       <section id="home" class="section">
         <app-home></app-home>
       </section>
+
       <section id="about" class="section">
         <app-about></app-about>
       </section>
-       <section id="resume" class="section">
+
+      <section id="resume" class="section">
         <app-resume></app-resume>
       </section>
-          <section id="skills" class="section">
+      
+      <section id="skills" class="section">
         <app-skills></app-skills>
       </section>
-      <section id="experience" class="section">
+
+      <!-- <section id="experience" class="section">
         <app-experience></app-experience> 
-      </section>  
+      </section>   -->
+
       <section id="portfolio" class="section">
         <app-portfolio></app-portfolio>
       </section>
+
       <section id="contact" class="section">
         <app-contact></app-contact>
       </section>
+
       <app-nav></app-nav>
       <!-- <router-outlet></router-outlet> -->
     </div>
@@ -62,7 +70,7 @@
         <div class="popup-content">
           <h2 class="mt-2 max-w-3xl text-5xl tracking-tight sm:text-6xl text-pretty">Configuration</h2>
           <p>This is a simple popup.</p>
-          <app-bgsetting></app-bgsetting>
+          <app-bgsetting (click)="closePopup()"></app-bgsetting>
         </div>
       </div>
     </div>
