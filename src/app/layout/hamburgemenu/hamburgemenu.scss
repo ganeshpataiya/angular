@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .navbar {
   background-color: #eb0101;
   color: white;
@@ -47,54 +46,4 @@
 
 .sidebar li {
   margin: 20px 0;
-=======
-.navbar {
-  background-color: #eb0101;
-  color: white;
-  padding: 10px;
-  width: 40px;
-  position: absolute;
-  right: 0;
-  z-index: 9;
-  &.hamburgemenu {
-    .menu {
-            position: relative;
-    }
-  }
-}
-
-
-.hamburger-btn {
-  font-size: 24px;
-  background: none;
-  color: white;
-  border: none;
-  cursor: pointer;
-}
-
-.sidebar { 
-  padding: 20px;
-  transition: left 0.3s ease-in-out;
-
-    &.open {
-        right: 0; /* show when open */
-          background-color: #222;
-          width: 250px;
-                  position: absolute;
-  top: 0;/* hidden by default */
-   color: white;
-   z-index: 8;
-    }
-}
-
-.sidebar
-
-.sidebar ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.sidebar li {
-  margin: 20px 0;
->>>>>>> 7013c006dfc7704393f517a3689a3bcb8794558d
 }
