@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
     "id": 1,
@@ -9,4 +10,17 @@
     "name": "Mihir",
     "role": "Tester"
   }
+=======
+[
+  {
+    "id": 1,
+    "name": "Ganesh",
+    "role": "Developer"
+  },
+  {
+    "id": 2,
+    "name": "Mihir",
+    "role": "Tester"
+  }
+>>>>>>> 7013c006dfc7704393f517a3689a3bcb8794558d
 ]
