@@ -1,0 +1,93 @@
+[
+  {
+    "id": "0",
+    "company": "Genpact",
+    "designation": "Principal Consultant",
+    "location": "Pune/hybrid",
+    "time": "2019 - present ",   
+    "website": "//www.genpact.com/",
+    "description": "As a principal consultant at Genpact, I have the privilege of shaping digital experiences that are both intuitive and engaging. \n My passion lies in designing user-centric interfaces that enhance usability and accessibility, ensuring users enjoy seamless interactions with digital products.\n Collaborating with diverse teams has been a rewarding journey, as we develop innovative solutions tailored to client needs and drive business success. By embracing continuous learning, I stay updated on the latest trends and technologies in UI/UX develop/design, enabling me to deliver solutions that not only meet but exceed expectations. \n\n  Working with General Electric (GE) across various business units, including GE Corporate, GE Digital, GE Vernova, and GE Aerospace, has been an enriching experience. These projects have exposed me to a variety of technologies, allowing me to gain valuable insights and contribute to groundbreaking solutions in each sector.",
+    "technology": [
+       "Guteberg Custom Blocks",
+      "Muban",
+      "React",
+      "ES6",
+      "SCSS",
+      "CSS",
+      "HTML",
+      "Drupal",
+      "WordPress"
+    ]   
+  },
+  {
+    "id": "1",
+    "company": "Effective Digital Pvt. Ltd.(formerly ADWEB Software)",
+    "designation": "UI Developer",
+    "location": "Pune",
+    "time": "2015 - 2019",  
+    "description": "As a UI developer at Effective Digital, I had the opportunity to work on the intranet product called GreenOrbit, where I began exploring front-end technologies like React JS and ES6. This experience has enriched my journey from UX to UI, deepening my understanding and expertise in creating user-friendly designs.",
+    "website": "//www.effective.digital",
+    "technology": [
+      "React",
+      "ES6",
+      "SCSS", "Jquery",
+      "Javascript", "CSS", "Photoshop", "Figma",
+      "HTML"
+    ]
+  },
+
+  {
+    "id": "2",
+    "company": "Milestone Internet Marketing",
+    "designation": "UI/UX Designer/Developer",
+    "location": "Ahmedabad",
+    "time": "2013 - 2015",
+    "description": "Milestone is a leading provider of internet marketing and website design services. I had the opportunity to design websites and create social media marketing materials for top hotels, including Holiday Inn, Ramada, Marriott, and Hyatt. This experience allowed me to contribute to enhancing their digital presence and engaging with their audience effectively.",
+     "website": "https://www.milestoneinternet.com/",
+    "technology": [
+      "Photoshop",
+      "illustrator",
+      "Figma",
+      "HTML",
+      "CSS",
+      "SCSS",
+      "Javascript",
+      "Jquery",
+      ".Net"  
+    ]
+  },
+  {
+    "id": "3",
+    "company": "Vincent IT",
+    "designation": "UI/UX Designer",
+    "location": "Bhopal",
+    "time": "2009 - 2013",
+    "description": "As a UI/UX designer at Vincent IT, I create visual elements for digital and print media, including website mockups, mobile apps, social media graphics, email campaigns, packaging, advertising materials, brand identity, digital ads, posters, book covers, logos, icons, banners, and images. My focus is on enhancing user experience while aligning with the brand's identity, blending creativity with strategic thinking to deliver impactful designs that resonate with users.",
+    "website": "https://vincentit.com/",
+    "technology": [   
+      "Photoshop",
+      "illustrator",
+      "Figma",
+      "Canva",
+      "coralDrwa",
+      "HTML",
+      "CSS"
+     ]
+  },
+  {
+    "id": "4",
+    "company": "Om Software",
+    "designation": "Web/Graphics Designer",
+    "location": "Bhopal",
+    "time": "2009 - 2010",
+    "description": "I began my career in web technology at Om Software right after graduation, stepping into the dynamic role of a web graphics designer. In this position, I crafted brand identities and designed website mockups that captured the essence of each project. My work extended to creating engaging web graphics and social media content, allowing me to blend creativity with strategic design to enhance digital presence. This experience laid a strong foundation for my journey in web technology, where I continue to explore innovative ways to connect brands with their audiences through compelling visual storytelling.",
+     "website": "https://www.omsoftware.net/",
+    "technology": [   
+      "Photoshop",
+      "illustrator",
+      "Figma",
+      "Canva",
+      "CorelDraw"     
+     ]
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "id": "0",
+    "year": "2025",
+    "projectName": "GE Aerospace",
+    "madeAt":"Genpact",
+    "link": "Aerospace GE9X",
+    "linkUrl": "https://www.geaerospace.com/commercial/aircraft-engines/ge9x",
+    "technology": [
+      "GSAP",
+      "JS",
+      "SCSS",
+      "CSS",
+      "HTML"
+    ]    
+  },
+
+  {
+    "id": "1",
+    "year": "2025",
+    "projectName": "GE Aerospace",
+    "madeAt":"Genpact",
+    "link": "Aerospace GET901",
+    "linkUrl": "https://www.geaerospace.com/military-defense/engines/t901",  
+    "technology": [
+      "GSAP",
+      "JS",
+      "SCSS",
+      "CSS",
+      "HTML"
+    ]    
+  },
+
+  {
+    "id": "2",
+    "year": "2019",
+    "projectName": "Profile",
+    "madeAt":"",
+    "link": "ganeshpataiya.github",
+    "linkUrl": "https://ganeshpataiya.github.io/",
+    "technology": [
+      "JS",
+      "HTML",
+      "SCSS",
+      "CSS",
+      "Figma",
+      "Photoshop",
+      "GitHub"
+    ]    
+  },
+
+  {
+    "id": "3",
+    "year": "2014",
+    "projectName": "Web Design",
+    "madeAt":"Milestone",
+    "link": "Rye Bar & Southern Kitchen",
+    "linkUrl": "Rye-Bar-and-Southern-Kitchen/index.html",
+    "linkUrl1": "https://milestoneinternet.info/default/comps/Rye-Bar-and-Southern-Kitchen/Rye-Bar-and-Southern-Kitchen-v2.html",
+     "technology": [
+      "Adobe Photoshop",
+      "Adobe illustrator",
+      "Figma"
+    ]    
+  },
+  {
+    "id": "4",
+    "year": "2009",
+    "projectName": "Mobile App Design",
+    "madeAt":"Vincent IT",
+    "link": "TheConfession Prayer Bible",
+    "linkUrl": "pdf/The-Confession-Prayer-Bible-Mobile-App.pdf",
+    "technology": [
+      "Adobe Photoshop",
+      "Adobe illustrator",
+       "Figma"
+    ]    
+  },
+  {
+    "id": "5",
+    "year": "2009",
+    "projectName": "Mobile App Design",
+    "madeAt":"Vincent IT",
+    "link": "Menu Freak",
+    "linkUrl": "pdf/MenuFreak.pdf",
+    "technology": [
+      "Adobe Photoshop",
+      "Adobe illustrator",
+       "Figma"
+    ]    
+  },
+  {
+    "id": "7",
+    "year": "2015",
+    "projectName": "Web Design",
+    "madeAt":"Milestone",
+    "link": "Crowne Plaza",
+    "linkUrl": "https://www.ihg.com/crowneplaza/hotels/us/en/new-orleans/msyla/hoteldetail",
+    "technology": [
+      "Adobe Photoshop",
+      "Adobe illustrator",
+       "Figma",
+       "HTML",
+       "CSS"
+    ]    
+  },
+  {
+    "id": "8",
+    "year": "2016",
+    "projectName": "Web Design",
+    "madeAt":"Milestone",
+    "link": "Calistoga Spa",
+    "linkUrl": "https://www.calistogaspa.com/",
+    "technology": [
+      "Adobe Photoshop",
+      "Adobe illustrator",
+       "Figma",
+       "HTML",
+       "CSS"
+    ]    
+  },
+  {
+    "id": "9",
+    "year": "2018",
+    "projectName": "Web Design",
+    "madeAt":"Milestone",
+    "link": "Ramada",
+    "linkUrl": "https://www.pigeonforgeramada.com/",
+    "technology": [
+      "Adobe Photoshop",
+      "Adobe illustrator",
+       "Figma",
+       "HTML",
+       "CSS"
+    ]    
+  },
+  {
+    "id": "10",
+    "year": "2019",
+    "projectName": "Web Design",
+    "madeAt":"Milestone",
+    "link": "Travelodge Seattle Center",
+    "linkUrl": "https://www.travelodgeseattlecenter.com/",
+    "technology": [
+      "Adobe Photoshop",
+      "Adobe illustrator",
+       "Figma",
+       "HTML",
+       "CSS"
+    ]    
+  },
+  {
+    "id": "11",
+    "year": "2019",
+    "projectName": "Web Design",
+    "madeAt":"Milestone",
+    "link": "ocean view resort",
+    "linkUrl": "https://www.oceanviewresort.com/",
+    "technology": [
+      "Adobe Photoshop",
+      "Adobe illustrator",
+       "Figma",
+       "HTML",
+       "CSS"
+    ]    
+  }
+  
+ 
+]
